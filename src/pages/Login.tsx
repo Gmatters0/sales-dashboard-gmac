@@ -18,5 +18,5 @@ function Login() {
       <LoginImage />
     </>
   )
-
+}
 export default Login
