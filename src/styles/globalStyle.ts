@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle<{ theme?: DefaultTheme }>`
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
   }
-  h1, h2, h3, p, ul, li {
+  h1, h2, h3, p, ul, li, figure {
     margin: 0;
     padding: 0;
   }
