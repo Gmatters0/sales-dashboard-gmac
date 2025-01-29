@@ -18,7 +18,7 @@ export const lightTheme: Theme = {
     primaryHover: '#0061DE',
   },
   card: {
-    alert: 'E80000',
+    alert: '#E80000',
     background: '#FFF',
     border: '#E0E0E0',
     success: '#008000',
