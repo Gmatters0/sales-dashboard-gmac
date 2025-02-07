@@ -36,11 +36,12 @@ function Registration() {
               </Box>
               <FormComponent
                 inputs={[
+                  { type: 'text', placeholder: 'Nome completo' },
                   { type: 'email', placeholder: 'Email' },
-                  { type: 'password', placeholder: 'Senha' },
+                  { type: 'tel', placeholder: 'Telefone' },
                 ]}
                 buttons={[
-                  { className: 'primary', type: 'submit', children: 'Login' },
+                  { className: 'primary', type: 'submit', children: 'Próximo' },
                 ]}
                 message={{
                   msg: 'ERRO!',
