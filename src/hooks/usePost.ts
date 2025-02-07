@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import axios, { Axios, AxiosRequestConfig } from 'axios'
+import axios, { AxiosRequestConfig } from 'axios'
 
 const axiosInstance = axios.create({
   baseURL: `${import.meta.env.VITE_API_BASE_URL}/`,
