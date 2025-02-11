@@ -30,6 +30,21 @@ export const TableWrapper = styled.div`
         border-bottom: none;
       }
     }
+
+    .ellipsis {
+      display: block;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    .ellipsis-sm {
+      width: ${pxToRem(300)}
+    }
+
+    .ellipsis-xs {
+      width: ${pxToRem(150)}
+    }
   }
 `
 
