@@ -1,2 +1,2 @@
-export * from './usePost'
+export * from './useAxios'
 export * from './useFormValidation'
